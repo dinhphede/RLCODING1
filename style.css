@@ -19,8 +19,15 @@ body {
     background-color: #fff;
     padding: 30px;
     margin: 20px auto;
-    display: flex
-;
+    display: flex;
+    ;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.film:hover {
     border: 1px solid gray;
     border-radius: 20px;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
@@ -30,12 +37,47 @@ body {
 .film-img {
     border-radius: 20px;
     margin-right: 30px;
+    height: 281px;
+    width: 190px;
 }
 .bold {
     color: #000;
     font-size: 26px;
     font-weight: 700;
 }
-p {
-    font-size: 24px;
+.film-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.film-block-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.film-block-text p{
+    margin: 0;
+}
+.film-block-text h3{
+    margin: 0;
+}
+.list {
+    list-style: none;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+    text-align: center;
+}
+.item-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #232323;
+}
+.item-link {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3f072c;
 }
